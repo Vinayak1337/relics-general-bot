@@ -11,7 +11,7 @@ const fs = require('fs');
 const settings = require('./data/keys/settings');
 
 client.ready = false;
-client.prefix = '&';
+client.prefix = '-';
 client.blue = '#5865F2';
 client.green = '#57F287';
 client.red = '#ED4245';
