@@ -1,0 +1,7 @@
+node_modules
+.eslintrc.json
+.prettierignore
+exampleCommand.js
+index.html
+test.css
+test.html
