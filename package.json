@@ -15,7 +15,7 @@
     "discord.js": "^12.4.1",
     "fs": "0.0.1-security",
     "hex-rgb-converter": "^0.0.2",
-    "moment": "^2.29.1",
+    "moment": "^2.29.4",
     "mongoose": "^5.12.13",
     "nodemon": "^2.0.6",
     "pm2": "^5.2.2",
