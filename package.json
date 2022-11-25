@@ -16,7 +16,7 @@
     "fs": "0.0.1-security",
     "hex-rgb-converter": "^0.0.2",
     "moment": "^2.29.4",
-    "mongoose": "^5.12.13",
+    "mongoose": "^5.13.15",
     "nodemon": "^2.0.20",
     "pm2": "^5.2.2",
     "request": "^2.88.2",
