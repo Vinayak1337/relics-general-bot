@@ -34,6 +34,37 @@ The bot facilitates organization-wide announcements without the need for individ
   
 - **Utility Commands**: A collection of commands designed to enhance user experience and server management.
 
+## Getting Started
+
+To set up and run the Relics General Bot on your local machine, follow these steps:
+
+1. **Clone the Repository**:
+   ```
+   git clone https://github.com/Vinayak1337/relics-general-bot.git 
+   ```
+
+2. **Navigate to the Directory and Install Dependencies**:
+   ```
+   cd relics-general-bot
+   npm install
+   ```
+
+3. **Edit Configuration Values**:
+   
+   Before starting the bot, you need to provide your configuration values. Open the `settings.js` file located at [data/keys/settings.js](https://github.com/Vinayak1337/relics-general-bot/blob/master/data/keys/settings.js) and modify the following:
+
+   ```
+   exports.token = 'YOUR_DISCORD_BOT_TOKEN';
+   exports.token2 = 'YOUR_SECOND_DISCORD_BOT_TOKEN';
+   exports.owners = ['OWNER1_ID', 'OWNER2_ID', 'OWNER3_ID'];
+   exports.uri = 'YOUR_MONGODB_URI';
+   ```
+
+4. **Start the Bot**:
+   ```
+   npm start
+   ```
+
 ## License
 
 This project is licensed under the terms of the [MIT License](https://github.com/Vinayak1337/relics-general-bot/blob/master/LICENSE).
